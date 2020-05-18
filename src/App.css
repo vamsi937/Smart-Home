@@ -3,9 +3,9 @@
 } */
 
 .home{
-    background: #333333;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #5c2828;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #5c2828, #dd1818);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #5c2828, #dd1818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* css for login form */
@@ -233,6 +233,10 @@
     box-shadow: 3px 3px 5px 3px black;
 }
 
+.article img{
+    width: 100%;
+    height: auto;
+}
 .mdl-layout__drawer .drawer .is-visible{
     background-color: white !important;
 }
