@@ -57,6 +57,7 @@ class Home extends Component{
                         </div>
                     )
                 }else{
+                    console.log(this.props);
                     if(this.props.rooms){
                         return (
                             <div>
@@ -126,6 +127,6 @@ export default compose(
     firestoreConnect([
         {collection:'families'},
         {collection:'users'},
-        {collection:'rooms',orderBy:'keys'}
+        {collection:'rooms'}
     ])
 )(Home);
