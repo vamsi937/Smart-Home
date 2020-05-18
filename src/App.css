@@ -3,10 +3,9 @@
 } */
 
 .home{
-    background: #ED213A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
-    display: flex;
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* css for login form */
@@ -197,9 +196,9 @@
     min-height: 94vh;
     padding: 3vh;
     width:100vw;
-    background: #0f0c29;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #C9D6FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .usageReport .rooms{
@@ -227,26 +226,13 @@
 /* article css */
 .article{
     margin-top:2vh;
-    padding-left: 1vh;
+    padding:2vh;
+    /* padding-left: 1vh; */
     min-height: 50vh;
     background-color: white;
     box-shadow: 3px 3px 5px 3px black;
 }
-@media (max-width:'600px'){
-    .home{
-        /* background-color: black; */
-        padding: 1.25em;
-    }
 
-    .signUpForm{
-        background-color: pink;
-    }
-
-    .signUpForm .text-field{
-        padding: none;
-        margin: none;
-    }
-    .appliance{
-        display: inline-block;
-    }
+.mdl-layout__drawer .drawer .is-visible{
+    background-color: white !important;
 }

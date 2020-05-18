@@ -60,7 +60,7 @@ class UsageReport extends Component {
         let requiredApplianceArr=this.convertObjectToArray(appliancesList);
         return (
             <div key={roomName} className="rooms">
-                <h3 style={{color:'white',textAlign:'center',fontFamily:'Anto'}}>{roomName.toUpperCase()} ROOM</h3>
+                <h3 style={{color:'black',textAlign:'center',fontFamily:'Anto',textTransform:'capitalize'}}>{roomName} Room</h3>
                 <Grid>
                     {this.returnApplianceUsage(requiredApplianceArr,startTime)}
                 </Grid>
@@ -83,7 +83,7 @@ class UsageReport extends Component {
         }else{
             return (
                 <div>
-                    <p style={{color:'white',fontFamily:'Oxygen',textAlign:'center'}}>No rooms have been selected.</p>
+                    <p style={{color:'black',fontFamily:'Oxygen',textAlign:'center'}}>No rooms have been selected.</p>
                 </div>
             )
         }
@@ -96,7 +96,7 @@ class UsageReport extends Component {
         // console.log(this.props);
         return (
             <div className="usageReport">
-                <h3 style={{textAlign:'center',fontFamily:'Oxygen',fontWeight:'bolder',color:'white'}}>Usage Report </h3>
+                <h3 style={{textAlign:'center',fontFamily:'Oxygen',fontWeight:'bolder',color:'black',textTransform:'uppercase'}}>Usage Report </h3>
                 {this.printUsage()}
             </div>
         )

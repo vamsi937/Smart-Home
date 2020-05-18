@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import {Link} from 'react-router-dom';
-import {Layout,Navigation,Drawer,Content,Footer,FooterLinkList,FooterSection,Grid,Cell} from 'react-mdl';
+import {Layout,Navigation,Drawer,Content,Footer,FooterSection} from 'react-mdl';
 import {connect} from 'react-redux';
 import {signOut as logOut} from './store/actions/authActions';
 
@@ -67,7 +67,7 @@ class App extends Component{
     return (
       <div className="demo-big-content">
         <Layout>
-            <Drawer className="drawer d-lg-none" title={<Link to="/" style={{textDecoration:'none',color:'black'}} onClick={()=>this.hideToggle()}><img src="icon.jpg" alt="icon" style={{height:'auto',width:'80%',margin:'auto'}} /></Link>}>
+            <Drawer className="drawer" title={<Link to="/" style={{textDecoration:'none',color:'black'}} onClick={()=>this.hideToggle()}><img src="icon.png" alt="icon" style={{height:'auto',width:'80%',margin:'auto'}} /></Link>}>
                 <Navigation>
                   {this.printLinks()}
                 </Navigation>
@@ -77,11 +77,7 @@ class App extends Component{
                 <Main  />
                 <Footer size="mini">
                     <FooterSection>
-                        {/* <FooterLinkList>
-                            <a href="#">Help</a>
-                            <a href="#">Privacy & Terms</a>
-                        </FooterLinkList> */}
-                            <p style={{width:'100vw',textAlign:'center',color:'white',margin:'auto',display:'flex',justifyContent:'center'}}>Developed with <i className="fas fa-heart" style={{margin:'2px',color:'pink'}}></i>  by Vamsi.</p>
+                      <p style={{width:'100vw',textAlign:'center',color:'white',margin:'auto',display:'flex',justifyContent:'center'}}>Developed with <i className="fas fa-heart" style={{margin:'2px',color:'#D63031'}}></i>  by Vamsi.</p>
                     </FooterSection>
                 </Footer>
             </Content>

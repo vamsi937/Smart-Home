@@ -33,7 +33,7 @@ class weatherProperty extends Component {
     render() {
         return (
             <div className="weather_property">
-                <Card shadow={0} style={{width: 'auto',paddingTop:'10px',paddingRight:'25px', background: 'rgba(255,255,255)',position:'relative'}}>
+                <Card shadow={0} style={{width: 'auto', paddingTop:'10px', background: 'rgba(255,255,255)',position:'relative'}}>
                     <CardTitle style={{height:'60px'}}>
                         <p className="property_heading">{this.props.name}</p>
                     </CardTitle>

@@ -126,6 +126,6 @@ export default compose(
     firestoreConnect([
         {collection:'families'},
         {collection:'users'},
-        {collection:'rooms'}
+        {collection:'rooms',orderBy:'keys'}
     ])
 )(Home);
