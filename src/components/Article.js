@@ -8,7 +8,7 @@ class Article extends Component {
                 <img 
                 src="smartHome.png"
                 alt="smartHome"
-                style={{height:'35vh',width:'auto',padding:'2em',display:'flex',justifyContent:'center',margin:'auto'}}
+                style={{height:'35vh',width:'auto',maxWidth:'100%',padding:'2em',display:'flex',justifyContent:'center',margin:'auto'}}
                 />
                 <p style={{textAlign:'center',color:'gray',fontWeight:'bold',fontSize:'20px',letterSpacing:'2px',fontFamily:'Oxygen'}}>Invest in the future of smart-living</p>
                 <hr style={{borderTop:'5px solid purple',width:'50%',margin:'auto'}}/>
