@@ -77,7 +77,7 @@ class App extends Component{
                 <Main  />
                 <Footer size="mini">
                     <FooterSection>
-                      <p style={{width:'100vw',textAlign:'center',color:'white',margin:'auto',display:'flex',justifyContent:'center'}}>Developed with <i className="fas fa-heart" style={{margin:'2px',color:'#D63031'}}></i>  by Vamsi.</p>
+                      <p style={{width:'100vw',textAlign:'center',color:'white',margin:'auto',display:'flex',justifyContent:'center'}}>Developed with <i className="fas fa-heart" style={{margin:'2px',color:'#D63031'}}></i> .</p>
                     </FooterSection>
                 </Footer>
             </Content>
